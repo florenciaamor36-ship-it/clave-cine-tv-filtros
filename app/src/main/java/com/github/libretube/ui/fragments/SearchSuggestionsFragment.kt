@@ -1,1 +1,126 @@
-cGFja2FnZSBjb20uZ2l0aHViLmxpYnJldHViZS51aS5mcmFnbWVudHMKCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZQppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXcKaW1wb3J0IGFuZHJvaWR4LmNvcmUudmlldy5pc0dvbmUKaW1wb3J0IGFuZHJvaWR4LmNvcmUudmlldy5pc1Zpc2libGUKaW1wb3J0IGFuZHJvaWR4LmZyYWdtZW50LmFwcC5GcmFnbWVudAppbXBvcnQgYW5kcm9pZHguZnJhZ21lbnQuYXBwLmFjdGl2aXR5Vmlld01vZGVscwppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLkxpZmVjeWNsZQppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLmxpZmVjeWNsZVNjb3BlCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUucmVwZWF0T25MaWZlY3ljbGUKaW1wb3J0IGFuZHJvaWR4Lm5hdmlnYXRpb24uZnJhZ21lbnQuZmluZE5hdkNvbnRyb2xsZXIKaW1wb3J0IGNvbS5naXRodWIubGlicmV0dWJlLlIKaW1wb3J0IGNvbS5naXRodWIubGlicmV0dWJlLmNvbnN0YW50cy5JbnRlbnREYXRhCmltcG9ydCBjb20uZ2l0aHViLmxpYnJldHViZS5kYXRhYmluZGluZy5GcmFnbWVudFNlYXJjaFN1Z2dlc3Rpb25zQmluZGluZwppbXBvcnQgY29tLmdpdGh1Yi5saWJyZXR1YmUuZGIuRGF0YWJhc2VIb2xkZXIKaW1wb3J0IGNvbS5naXRodWIubGlicmV0dWJlLnVpLmFjdGl2aXRpZXMuTWFpbkFjdGl2aXR5CmltcG9ydCBjb20uZ2l0aHViLmxpYnJldHViZS51aS5hZGFwdGVycy5TZWFyY2hTdWdnZXN0aW9uc0FkYXB0ZXIKaW1wb3J0IGNvbS5naXRodWIubGlicmV0dWJlLnVpLmV4dGVuc2lvbnMuc2V0T25CYWNrUHJlc3NlZAppbXBvcnQgY29tLmdpdGh1Yi5saWJyZXR1YmUudWkubW9kZWxzLlNlYXJjaFZpZXdNb2RlbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5jb2xsZWN0TGF0ZXN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgpjbGFzcyBTZWFyY2hTdWdnZXN0aW9uc0ZyYWdtZW50IDogRnJhZ21lbnQoUi5sYXlvdXQuZnJhZ21lbnRfc2VhcmNoX3N1Z2dlc3Rpb25zKSB7CiAgICBwcml2YXRlIHZhciBfYmluZGluZzogRnJhZ21lbnRTZWFyY2hTdWdnZXN0aW9uc0JpbmRpbmc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YWwgYmluZGluZyBnZXQoKSA9IF9iaW5kaW5nISEKICAgIHByaXZhdGUgdmFsIHZpZXdNb2RlbDogU2VhcmNoVmlld01vZGVsIGJ5IGFjdGl2aXR5Vmlld01vZGVscygpCiAgICBwcml2YXRlIHZhbCBtYWluQWN0aXZpdHkgZ2V0KCkgPSBhY3Rpdml0eSBhcyBNYWluQWN0aXZpdHkKCiAgICBwcml2YXRlIHZhbCBzdWdnZXN0aW9uc0FkYXB0ZXIgPSBTZWFyY2hTdWdnZXN0aW9uc0FkYXB0ZXIoCiAgICAgICAgb25Sb290Q2xpY2tMaXN0ZW5lciA9IHsgc3VnZ2VzdGlvbiAtPgogICAgICAgICAgICBtYWluQWN0aXZpdHkuc2V0UXVlcnkoc3VnZ2VzdGlvbiwgdHJ1ZSkKICAgICAgICB9LAogICAgICAgIG9uQXJyb3dDbGlja0xpc3RlbmVyID0geyBzdWdnZXN0aW9uIC0+CiAgICAgICAgICAgIG1haW5BY3Rpdml0eS5zZXRRdWVyeShzdWdnZXN0aW9uLCBmYWxzZSkKICAgICAgICB9LAogICAgICAgIG9uU2VhcmNoSGlzdG9yeUl0ZW1EZWxldGVkID0geyBoaXN0b3J5SXRlbSAtPgogICAgICAgICAgICBsaWZlY3ljbGVTY29wZS5sYXVuY2goRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgIERhdGFiYXNlSG9sZGVyLkRhdGFiYXNlLnNlYXJjaEhpc3RvcnlEYW8oKS5kZWxldGUoaGlzdG9yeUl0ZW0pCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApCgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSkKICAgICAgICB2aWV3TW9kZWwuc2V0UXVlcnkoYXJndW1lbnRzPy5nZXRTdHJpbmcoSW50ZW50RGF0YS5xdWVyeSkpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uVmlld0NyZWF0ZWQodmlldzogVmlldywgc2F2ZWRJbnN0YW5jZVN0YXRlOiBCdW5kbGU/KSB7CiAgICAgICAgX2JpbmRpbmcgPSBGcmFnbWVudFNlYXJjaFN1Z2dlc3Rpb25zQmluZGluZy5iaW5kKHZpZXcpCiAgICAgICAgc3VwZXIub25WaWV3Q3JlYXRlZCh2aWV3LCBzYXZlZEluc3RhbmNlU3RhdGUpCiAgICAgICAgYmluZGluZy5zdWdnZXN0aW9uc1JlY3ljbGVyLmFkYXB0ZXIgPSBzdWdnZXN0aW9uc0FkYXB0ZXIKCiAgICAgICAgc2V0T25CYWNrUHJlc3NlZCB7CiAgICAgICAgICAgIGlmICghbWFpbkFjdGl2aXR5LmNsZWFyU2VhcmNoVmlld0ZvY3VzKCkpIGZpbmROYXZDb250cm9sbGVyKCkucG9wQmFja1N0YWNrKCkKICAgICAgICB9CgogICAgICAgIGxpZmVjeWNsZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHZpZXdMaWZlY3ljbGVPd25lci5yZXBlYXRPbkxpZmVjeWNsZShMaWZlY3ljbGUuU3RhdGUuU1RBUlRFRCkgewogICAgICAgICAgICAgICAgbGF1bmNoIHsKICAgICAgICAgICAgICAgICAgICB2aWV3TW9kZWwuc2VhcmNoU3VnZ2VzdGlvbnMuY29sbGVjdExhdGVzdCB7IHJlc3VsdCAtPgogICAgICAgICAgICAgICAgICAgICAgICBzdWdnZXN0aW9uc0FkYXB0ZXIuc3VibWl0U2VhcmNoU3VnZ2VzdGlvbnMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQuaGlzdG9yeUxpc3QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQuc3VnZ2VzdGlvbkxpc3QKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiaW5kaW5nLnN1Z2dlc3Rpb25zUmVjeWNsZXIuc2Nyb2xsVG9Qb3NpdGlvbigwKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGxhdW5jaCB7CiAgICAgICAgICAgICAgICAgICAgdmlld01vZGVsLnNob3VsZFNob3dFbXB0eUhpc3RvcnlNZXNzYWdlLmNvbGxlY3RMYXRlc3QgewogICAgICAgICAgICAgICAgICAgICAgICB0b2dnbGVFbXB0eUhpc3RvcnlNZXNzYWdlVmlzaWJpbGl0eShpdCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdG9nZ2xlRW1wdHlIaXN0b3J5TWVzc2FnZVZpc2liaWxpdHkoc2hvdzogQm9vbGVhbikgewogICAgICAgIGJpbmRpbmcuaGlzdG9yeUVtcHR5LmlzVmlzaWJsZSA9IHNob3cKICAgICAgICBiaW5kaW5nLnN1Z2dlc3Rpb25zUmVjeWNsZXIuaXNHb25lID0gc2hvdwogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvbkRlc3Ryb3koKSB7CiAgICAgICAgc3VwZXIub25EZXN0cm95KCkKCiAgICAgICAgX2JpbmRpbmcgPSBudWxsCiAgICB9Cn0K
+package com.github.libretube.ui.fragments
+
+import android.os.Bundle
+import android.view.View
+import androidx.core.view.isGone
+import androidx.core.view.isVisible
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.Lifecycle
+import com.google.android.material.chip.Chip
+import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.fragment.findNavController
+import com.github.libretube.R
+import com.github.libretube.constants.IntentData
+import com.github.libretube.databinding.FragmentSearchSuggestionsBinding
+import com.github.libretube.db.DatabaseHolder
+import com.github.libretube.ui.activities.MainActivity
+import com.github.libretube.ui.adapters.SearchSuggestionsAdapter
+import com.github.libretube.ui.extensions.setOnBackPressed
+import com.github.libretube.ui.models.SearchViewModel
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.launch
+
+class SearchSuggestionsFragment : Fragment(R.layout.fragment_search_suggestions) {
+    private var _binding: FragmentSearchSuggestionsBinding? = null
+    private val binding get() = _binding!!
+    private val viewModel: SearchViewModel by activityViewModels()
+    private val mainActivity get() = activity as MainActivity
+
+    private val suggestionsAdapter = SearchSuggestionsAdapter(
+        onRootClickListener = { suggestion ->
+            mainActivity.setQuery(suggestion, true)
+        },
+        onArrowClickListener = { suggestion ->
+            mainActivity.setQuery(suggestion, false)
+        },
+        onSearchHistoryItemDeleted = { historyItem ->
+            lifecycleScope.launch(Dispatchers.IO) {
+                DatabaseHolder.Database.searchHistoryDao().delete(historyItem)
+            }
+        }
+    )
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        viewModel.setQuery(arguments?.getString(IntentData.query))
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        _binding = FragmentSearchSuggestionsBinding.bind(view)
+        super.onViewCreated(view, savedInstanceState)
+        binding.suggestionsRecycler.adapter = suggestionsAdapter
+
+        var baseQuery = arguments?.getString(IntentData.query).orEmpty().trim()
+        var selectedType = ""
+        val categories = linkedMapOf(
+            "Películas" to listOf("Acción" to "acción", "Comedia" to "comedia", "Drama" to "drama", "Terror" to "terror", "Animación" to "animación", "Romance" to "romance", "Documentales" to "documental"),
+            "Series" to listOf("Acción" to "serie acción", "Comedia" to "serie comedia", "Drama" to "serie drama", "Terror" to "serie terror", "Infantiles" to "serie infantil", "Documentales" to "serie documental"),
+            "TV en vivo" to listOf("Argentina" to "TV en vivo Argentina", "Chile" to "TV en vivo Chile", "Ecuador" to "TV en vivo Ecuador", "Uruguay" to "TV en vivo Uruguay", "Paraguay" to "TV en vivo Paraguay", "Brasil" to "TV en vivo Brasil", "México" to "TV en vivo México", "Internacional" to "TV en vivo internacional"),
+            "Música" to listOf("Pop" to "música pop", "Rock" to "música rock", "Cumbia" to "música cumbia", "Cuarteto" to "música cuarteto", "Reggaetón" to "música reggaetón", "Folclore" to "música folclore", "Clásica" to "música clásica", "Cristiana" to "música cristiana")
+        )
+        fun showSubcategories(type: String) {
+            selectedType = type
+            binding.categorySubcategoryGroup.removeAllViews()
+            categories[type].orEmpty().forEach { (label, term) ->
+                val chip = Chip(requireContext()).apply {
+                    text = label
+                    isCheckable = true
+                    setOnClickListener {
+                        baseQuery = mainActivity.currentSearchQuery().trim()
+                        val query = listOf(baseQuery, term).filter { it.isNotBlank() }.joinToString(" ")
+                        mainActivity.setQuery(query, true)
+                    }
+                }
+                binding.categorySubcategoryGroup.addView(chip)
+            }
+        }
+        categories.keys.forEach { type ->
+            val chip = Chip(requireContext()).apply {
+                text = type
+                isCheckable = true
+                setOnClickListener { showSubcategories(type) }
+            }
+            binding.categoryTypeGroup.addView(chip)
+        }
+        showSubcategories("Películas")
+
+        setOnBackPressed {
+            if (!mainActivity.clearSearchViewFocus()) findNavController().popBackStack()
+        }
+
+        lifecycleScope.launch {
+            viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
+                launch {
+                    viewModel.searchSuggestions.collectLatest { result ->
+                        suggestionsAdapter.submitSearchSuggestions(
+                            result.historyList,
+                            result.suggestionList
+                        ) {
+                            binding.suggestionsRecycler.scrollToPosition(0)
+                        }
+                    }
+                }
+
+                launch {
+                    viewModel.shouldShowEmptyHistoryMessage.collectLatest {
+                        toggleEmptyHistoryMessageVisibility(it)
+                    }
+                }
+            }
+        }
+    }
+
+    private fun toggleEmptyHistoryMessageVisibility(show: Boolean) {
+        binding.historyEmpty.isVisible = show
+        binding.suggestionsRecycler.isGone = show
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+
+        _binding = null
+    }
+}
