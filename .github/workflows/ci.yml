@@ -32,6 +32,16 @@ jobs:
           cp cine/app/src/main/res/layout/fragment_search_result.xml source/app/src/main/res/layout/
           cp cine/app/src/main/res/layout/fragment_search_suggestions.xml source/app/src/main/res/layout/
           cp cine/app/src/main/java/com/github/libretube/ui/fragments/SearchSuggestionsFragment.kt source/app/src/main/java/com/github/libretube/ui/fragments/
+          python3 - <<'PYMAIN'
+          from pathlib import Path
+          path = Path("source/app/src/main/java/com/github/libretube/ui/activities/MainActivity.kt")
+          text = path.read_text()
+          marker = "    fun setQuery(query: String, submit: Boolean) {"
+          addition = "    fun currentSearchQuery(): String = if (this::searchView.isInitialized) searchView.query?.toString().orEmpty() else ""\n\n"
+          if "fun currentSearchQuery()" not in text:
+              text = text.replace(marker, addition + marker)
+          path.write_text(text)
+          PYMAIN
           python3 - <<'PYSTRINGS'
           from pathlib import Path
           labels = {
