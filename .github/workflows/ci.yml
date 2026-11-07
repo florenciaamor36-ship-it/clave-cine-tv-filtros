@@ -30,9 +30,21 @@ jobs:
           cp cine/app/src/main/java/com/github/libretube/ui/fragments/SearchResultFragment.kt source/app/src/main/java/com/github/libretube/ui/fragments/
           cp cine/app/src/main/java/com/github/libretube/ui/models/sources/SearchPagingSource.kt source/app/src/main/java/com/github/libretube/ui/models/sources/
           cp cine/app/src/main/res/layout/fragment_search_result.xml source/app/src/main/res/layout/
-          cp cine/app/src/main/res/values/strings.xml source/app/src/main/res/values/
-          cp cine/app/src/main/res/values-es/strings.xml source/app/src/main/res/values-es/
-          cp cine/app/src/main/res/values-b+es+419/strings.xml source/app/src/main/res/values-b+es+419/
+          python3 - <<'PYSTRINGS'
+          from pathlib import Path
+          labels = {
+              "values": {"cine_movies": "Movies", "cine_series": "Series", "cine_live": "Live TV", "cine_music": "Music"},
+              "values-es": {"cine_movies": "Películas", "cine_series": "Series", "cine_live": "TV en vivo", "cine_music": "Música"},
+              "values-b+es+419": {"cine_movies": "Películas", "cine_series": "Series", "cine_live": "TV en vivo", "cine_music": "Música"},
+          }
+          for folder, entries in labels.items():
+              path = Path("source/app/src/main/res") / folder / "strings.xml"
+              text = path.read_text()
+              for key, value in entries.items():
+                  if f'name="{key}"' not in text:
+                      text = text.replace("</resources>", f'    <string name="{key}">{value}</string>\n</resources>')
+              path.write_text(text)
+          PYSTRINGS
       - name: Build debug APK
         working-directory: source
         run: chmod +x gradlew && ./gradlew assembleDebug --no-daemon
