@@ -1,1 +1,128 @@
-cGFja2FnZSBjb20uZ2l0aHViLmxpYnJldHViZS51aS5mcmFnbWVudHMKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucmVzLkNvbmZpZ3VyYXRpb24KaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBhbmRyb2lkLm9zLlBhcmNlbGFibGUKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3CmltcG9ydCBhbmRyb2lkeC5jb3JlLnZpZXcuaXNHb25lCmltcG9ydCBhbmRyb2lkeC5jb3JlLnZpZXcuaXNWaXNpYmxlCmltcG9ydCBhbmRyb2lkeC5mcmFnbWVudC5hcHAudmlld01vZGVscwppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLkxpZmVjeWNsZQppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLmxpZmVjeWNsZVNjb3BlCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUucmVwZWF0T25MaWZlY3ljbGUKaW1wb3J0IGFuZHJvaWR4Lm5hdmlnYXRpb24uZnJhZ21lbnQuZmluZE5hdkNvbnRyb2xsZXIKaW1wb3J0IGFuZHJvaWR4Lm5hdmlnYXRpb24uZnJhZ21lbnQubmF2QXJncwppbXBvcnQgYW5kcm9pZHgucGFnaW5nLkxvYWRTdGF0ZQppbXBvcnQgYW5kcm9pZHgucmVjeWNsZXJ2aWV3LndpZGdldC5HcmlkTGF5b3V0TWFuYWdlcgppbXBvcnQgYW5kcm9pZHgucmVjeWNsZXJ2aWV3LndpZGdldC5SZWN5Y2xlclZpZXcKaW1wb3J0IGNvbS5naXRodWIubGlicmV0dWJlLlIKaW1wb3J0IGNvbS5naXRodWIubGlicmV0dWJlLmRhdGFiaW5kaW5nLkZyYWdtZW50U2VhcmNoUmVzdWx0QmluZGluZwppbXBvcnQgY29tLmdpdGh1Yi5saWJyZXR1YmUuZXh0ZW5zaW9ucy5jZWlsSGFsZgppbXBvcnQgY29tLmdpdGh1Yi5saWJyZXR1YmUudWkuYWN0aXZpdGllcy5NYWluQWN0aXZpdHkKaW1wb3J0IGNvbS5naXRodWIubGlicmV0dWJlLnVpLmFkYXB0ZXJzLlNlYXJjaFJlc3VsdHNBZGFwdGVyCmltcG9ydCBjb20uZ2l0aHViLmxpYnJldHViZS51aS5iYXNlLkR5bmFtaWNMYXlvdXRNYW5hZ2VyRnJhZ21lbnQKaW1wb3J0IGNvbS5naXRodWIubGlicmV0dWJlLnVpLmV4dGVuc2lvbnMuc2V0T25CYWNrUHJlc3NlZAppbXBvcnQgY29tLmdpdGh1Yi5saWJyZXR1YmUudWkubW9kZWxzLlNlYXJjaFJlc3VsdFZpZXdNb2RlbAppbXBvcnQgY29tLmdpdGh1Yi5saWJyZXR1YmUudXRpbC5UZXh0VXRpbHMudG9UaW1lSW5TZWNvbmRzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5jb2xsZWN0TGF0ZXN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBva2h0dHAzLkh0dHBVcmwuQ29tcGFuaW9uLnRvSHR0cFVybE9yTnVsbAoKY2xhc3MgU2VhcmNoUmVzdWx0RnJhZ21lbnQgOiBEeW5hbWljTGF5b3V0TWFuYWdlckZyYWdtZW50KFIubGF5b3V0LmZyYWdtZW50X3NlYXJjaF9yZXN1bHQpIHsKICAgIHByaXZhdGUgdmFyIF9iaW5kaW5nOiBGcmFnbWVudFNlYXJjaFJlc3VsdEJpbmRpbmc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YWwgYmluZGluZyBnZXQoKSA9IF9iaW5kaW5nISEKICAgIHByaXZhdGUgdmFsIGFyZ3MgYnkgbmF2QXJnczxTZWFyY2hSZXN1bHRGcmFnbWVudEFyZ3M+KCkKICAgIHByaXZhdGUgdmFsIHZpZXdNb2RlbCBieSB2aWV3TW9kZWxzPFNlYXJjaFJlc3VsdFZpZXdNb2RlbD4oKQoKICAgIHByaXZhdGUgdmFsIG1haW5BY3Rpdml0eSBnZXQoKSA9IGFjdGl2aXR5IGFzIE1haW5BY3Rpdml0eQogICAgcHJpdmF0ZSB2YXIgcmVjeWNsZXJWaWV3U3RhdGU6IFBhcmNlbGFibGU/ID0gbnVsbAoKICAgIG92ZXJyaWRlIGZ1biBzZXRMYXlvdXRNYW5hZ2VycyhncmlkSXRlbXM6IEludCkgewogICAgICAgIF9iaW5kaW5nPy5zZWFyY2hSZWN5Y2xlcj8ubGF5b3V0TWFuYWdlciA9IEdyaWRMYXlvdXRNYW5hZ2VyKGNvbnRleHQsIGdyaWRJdGVtcy5jZWlsSGFsZigpKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblZpZXdDcmVhdGVkKHZpZXc6IFZpZXcsIHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIF9iaW5kaW5nID0gRnJhZ21lbnRTZWFyY2hSZXN1bHRCaW5kaW5nLmJpbmQodmlldykKICAgICAgICBzdXBlci5vblZpZXdDcmVhdGVkKHZpZXcsIHNhdmVkSW5zdGFuY2VTdGF0ZSkKCiAgICAgICAgLy8gZml4ZXMgYSBidWcgdGhhdCB0aGUgc2VhcmNoIHF1ZXJ5IHdpbGwgc3RheSB0aGUgb2xkIG9uZSB3aGVuIHNlYXJjaGluZyBmb3IgbXVsdGlwbGUKICAgICAgICAvLyBkaWZmZXJlbnQgcXVlcmllcyBpbiBhIHJvdyBhbmQgbmF2aWdhdGluZyB0byB0aGUgcHJldmlvdXMgb25lcyB0aHJvdWdoIGJhY2sgcHJlc3NlcwogICAgICAgIG1haW5BY3Rpdml0eS5zZXRRdWVyeVNpbGVudChhcmdzLnF1ZXJ5KQoKICAgICAgICAvLyBmaWx0ZXIgb3B0aW9ucwogICAgICAgIGJpbmRpbmcuZmlsdGVyQ2hpcEdyb3VwLnNldE9uQ2hlY2tlZFN0YXRlQ2hhbmdlTGlzdGVuZXIgeyBfLCBfIC0+CiAgICAgICAgICAgIHZpZXdNb2RlbC5zZXRGaWx0ZXIoCiAgICAgICAgICAgICAgICB3aGVuICgKICAgICAgICAgICAgICAgICAgICBiaW5kaW5nLmZpbHRlckNoaXBHcm91cC5jaGVja2VkQ2hpcElkCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBSLmlkLmNoaXBfbW92aWVzIC0+ICJtb3ZpZXMiCiAgICAgICAgICAgICAgICAgICAgUi5pZC5jaGlwX3NlcmllcyAtPiAic2VyaWVzIgogICAgICAgICAgICAgICAgICAgIFIuaWQuY2hpcF9saXZlIC0+ICJsaXZlIgogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJGaWx0ZXIgb3V0IG9mIHJhbmdlIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgdmFsIHRpbWVTdGFtcCA9IGFyZ3MucXVlcnkudG9IdHRwVXJsT3JOdWxsKCk/LnF1ZXJ5UGFyYW1ldGVyKCJ0Iik/LnRvVGltZUluU2Vjb25kcygpCiAgICAgICAgdmFsIHNlYXJjaFJlc3VsdHNBZGFwdGVyID0gU2VhcmNoUmVzdWx0c0FkYXB0ZXIodGltZVN0YW1wID86IDApCiAgICAgICAgYmluZGluZy5zZWFyY2hSZWN5Y2xlci5hZGFwdGVyID0gc2VhcmNoUmVzdWx0c0FkYXB0ZXIKCiAgICAgICAgYmluZGluZy5zZWFyY2hSZWN5Y2xlci5hZGRPblNjcm9sbExpc3RlbmVyKG9iamVjdCA6IFJlY3ljbGVyVmlldy5PblNjcm9sbExpc3RlbmVyKCkgewogICAgICAgICAgICBvdmVycmlkZSBmdW4gb25TY3JvbGxTdGF0ZUNoYW5nZWQocmVjeWNsZXJWaWV3OiBSZWN5Y2xlclZpZXcsIG5ld1N0YXRlOiBJbnQpIHsKICAgICAgICAgICAgICAgIHN1cGVyLm9uU2Nyb2xsU3RhdGVDaGFuZ2VkKHJlY3ljbGVyVmlldywgbmV3U3RhdGUpCiAgICAgICAgICAgICAgICByZWN5Y2xlclZpZXdTdGF0ZSA9IHJlY3ljbGVyVmlldy5sYXlvdXRNYW5hZ2VyPy5vblNhdmVJbnN0YW5jZVN0YXRlKCkKICAgICAgICAgICAgfQogICAgICAgIH0pCgogICAgICAgIHZpZXdMaWZlY3ljbGVPd25lci5saWZlY3ljbGVTY29wZS5sYXVuY2ggewogICAgICAgICAgICByZXBlYXRPbkxpZmVjeWNsZShMaWZlY3ljbGUuU3RhdGUuU1RBUlRFRCkgewogICAgICAgICAgICAgICAgc2VhcmNoUmVzdWx0c0FkYXB0ZXIubG9hZFN0YXRlRmxvdy5jb2xsZWN0IHsKICAgICAgICAgICAgICAgICAgICB2YWwgaXNMb2FkaW5nID0gaXQuc291cmNlLnJlZnJlc2ggaXMgTG9hZFN0YXRlLkxvYWRpbmcKICAgICAgICAgICAgICAgICAgICBiaW5kaW5nLnByb2dyZXNzLmlzVmlzaWJsZSA9IGlzTG9hZGluZwogICAgICAgICAgICAgICAgICAgIGJpbmRpbmcuc2VhcmNoUmVzdWx0c0xheW91dC5pc0dvbmUgPSBpc0xvYWRpbmcKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmlld0xpZmVjeWNsZU93bmVyLmxpZmVjeWNsZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHJlcGVhdE9uTGlmZWN5Y2xlKExpZmVjeWNsZS5TdGF0ZS5TVEFSVEVEKSB7CiAgICAgICAgICAgICAgICB2aWV3TW9kZWwuc2VhcmNoUmVzdWx0c0Zsb3cuY29sbGVjdExhdGVzdCB7CiAgICAgICAgICAgICAgICAgICAgc2VhcmNoUmVzdWx0c0FkYXB0ZXIuc3VibWl0RGF0YShpdCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmlld01vZGVsLnNlYXJjaFN1Z2dlc3Rpb24ub2JzZXJ2ZSh2aWV3TGlmZWN5Y2xlT3duZXIpIHsgc3VnZ2VzdGlvbiAtPgogICAgICAgICAgICBiaW5kaW5nLnNlYXJjaFN1Z2dlc3Rpb25Db250YWluZXIuaXNWaXNpYmxlID0gc3VnZ2VzdGlvbiAhPSBudWxsCiAgICAgICAgICAgIGJpbmRpbmcuc2VhcmNoU3VnZ2VzdGlvbkNvbnRhaW5lci5zZXRPbkNsaWNrTGlzdGVuZXIobnVsbCkKICAgICAgICAgICAgaWYgKHN1Z2dlc3Rpb24gPT0gbnVsbCkgcmV0dXJuQG9ic2VydmUKCiAgICAgICAgICAgIHZhbCAoc3VnZ2VzdGlvbiwgY29ycmVjdGVkKSA9IHN1Z2dlc3Rpb24KICAgICAgICAgICAgYmluZGluZy5zZWFyY2hTdWdnZXN0aW9uLnRleHQgPSBzdWdnZXN0aW9uCiAgICAgICAgICAgIGJpbmRpbmcuc2VhcmNoU3VnZ2VzdGlvbkxhYmVsLnRleHQgPSBpZiAoY29ycmVjdGVkKSB7CiAgICAgICAgICAgICAgICBnZXRTdHJpbmcoUi5zdHJpbmcuc2hvd2luZ19yZXN1bHRzX2ZvcikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGJpbmRpbmcuc2VhcmNoU3VnZ2VzdGlvbkNvbnRhaW5lci5zZXRPbkNsaWNrTGlzdGVuZXIgewogICAgICAgICAgICAgICAgICAgIG1haW5BY3Rpdml0eS5zZXRRdWVyeShzdWdnZXN0aW9uLCB0cnVlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZ2V0U3RyaW5nKFIuc3RyaW5nLmRpZF95b3VfbWVhbikKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc2V0T25CYWNrUHJlc3NlZCB7CiAgICAgICAgICAgIGZpbmROYXZDb250cm9sbGVyKCkucG9wQmFja1N0YWNrKFIuaWQuc2VhcmNoRnJhZ21lbnQsIHRydWUpIHx8CiAgICAgICAgICAgICAgICAgICAgZmluZE5hdkNvbnRyb2xsZXIoKS5wb3BCYWNrU3RhY2soKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25Db25maWd1cmF0aW9uQ2hhbmdlZChuZXdDb25maWc6IENvbmZpZ3VyYXRpb24pIHsKICAgICAgICBzdXBlci5vbkNvbmZpZ3VyYXRpb25DaGFuZ2VkKG5ld0NvbmZpZykKICAgICAgICAvLyBtYW51YWxseSByZXN0b3JlIHRoZSByZWN5Y2xlcnZpZXcgc3RhdGUgZHVlIHRvIGh0dHBzOi8vZ2l0aHViLmNvbS9tYXRlcmlhbC1jb21wb25lbnRzL21hdGVyaWFsLWNvbXBvbmVudHMtYW5kcm9pZC9pc3N1ZXMvMzQ3MwogICAgICAgIGJpbmRpbmcuc2VhcmNoUmVjeWNsZXIubGF5b3V0TWFuYWdlcj8ub25SZXN0b3JlSW5zdGFuY2VTdGF0ZShyZWN5Y2xlclZpZXdTdGF0ZSkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25EZXN0cm95VmlldygpIHsKICAgICAgICBzdXBlci5vbkRlc3Ryb3lWaWV3KCkKICAgICAgICBfYmluZGluZyA9IG51bGwKICAgIH0KfQo=
+package com.github.libretube.ui.fragments
+
+import android.content.res.Configuration
+import android.os.Bundle
+import android.os.Parcelable
+import android.view.View
+import androidx.core.view.isGone
+import androidx.core.view.isVisible
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
+import androidx.paging.LoadState
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.github.libretube.R
+import com.github.libretube.databinding.FragmentSearchResultBinding
+import com.github.libretube.extensions.ceilHalf
+import com.github.libretube.ui.activities.MainActivity
+import com.github.libretube.ui.adapters.SearchResultsAdapter
+import com.github.libretube.ui.base.DynamicLayoutManagerFragment
+import com.github.libretube.ui.extensions.setOnBackPressed
+import com.github.libretube.ui.models.SearchResultViewModel
+import com.github.libretube.util.TextUtils.toTimeInSeconds
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.launch
+import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
+
+class SearchResultFragment : DynamicLayoutManagerFragment(R.layout.fragment_search_result) {
+    private var _binding: FragmentSearchResultBinding? = null
+    private val binding get() = _binding!!
+    private val args by navArgs<SearchResultFragmentArgs>()
+    private val viewModel by viewModels<SearchResultViewModel>()
+
+    private val mainActivity get() = activity as MainActivity
+    private var recyclerViewState: Parcelable? = null
+
+    override fun setLayoutManagers(gridItems: Int) {
+        _binding?.searchRecycler?.layoutManager = GridLayoutManager(context, gridItems.ceilHalf())
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        _binding = FragmentSearchResultBinding.bind(view)
+        super.onViewCreated(view, savedInstanceState)
+
+        // fixes a bug that the search query will stay the old one when searching for multiple
+        // different queries in a row and navigating to the previous ones through back presses
+        mainActivity.setQuerySilent(args.query)
+
+        // filter options
+        binding.filterChipGroup.setOnCheckedStateChangeListener { _, _ ->
+            viewModel.setFilter(
+                when (
+                    binding.filterChipGroup.checkedChipId
+                ) {
+                    R.id.chip_movies -> "movies"
+                    R.id.chip_series -> "series"
+                    R.id.chip_live -> "live"
+                    else -> throw IllegalArgumentException("Filter out of range")
+                }
+            )
+        }
+
+        val timeStamp = args.query.toHttpUrlOrNull()?.queryParameter("t")?.toTimeInSeconds()
+        val searchResultsAdapter = SearchResultsAdapter(timeStamp ?: 0)
+        binding.searchRecycler.adapter = searchResultsAdapter
+
+        binding.searchRecycler.addOnScrollListener(object : RecyclerView.OnScrollListener() {
+            override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+                super.onScrollStateChanged(recyclerView, newState)
+                recyclerViewState = recyclerView.layoutManager?.onSaveInstanceState()
+            }
+        })
+
+        viewLifecycleOwner.lifecycleScope.launch {
+            repeatOnLifecycle(Lifecycle.State.STARTED) {
+                searchResultsAdapter.loadStateFlow.collect {
+                    val isLoading = it.source.refresh is LoadState.Loading
+                    binding.progress.isVisible = isLoading
+                    binding.searchResultsLayout.isGone = isLoading
+                }
+            }
+        }
+
+        viewLifecycleOwner.lifecycleScope.launch {
+            repeatOnLifecycle(Lifecycle.State.STARTED) {
+                viewModel.searchResultsFlow.collectLatest {
+                    searchResultsAdapter.submitData(it)
+                }
+            }
+        }
+
+        viewModel.searchSuggestion.observe(viewLifecycleOwner) { suggestion ->
+            binding.searchSuggestionContainer.isVisible = suggestion != null
+            binding.searchSuggestionContainer.setOnClickListener(null)
+            if (suggestion == null) return@observe
+
+            val (suggestion, corrected) = suggestion
+            binding.searchSuggestion.text = suggestion
+            binding.searchSuggestionLabel.text = if (corrected) {
+                getString(R.string.showing_results_for)
+            } else {
+                binding.searchSuggestionContainer.setOnClickListener {
+                    mainActivity.setQuery(suggestion, true)
+                }
+                getString(R.string.did_you_mean)
+            }
+        }
+
+        setOnBackPressed {
+            findNavController().popBackStack(R.id.searchFragment, true) ||
+                    findNavController().popBackStack()
+        }
+    }
+
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        // manually restore the recyclerview state due to https://github.com/material-components/material-components-android/issues/3473
+        binding.searchRecycler.layoutManager?.onRestoreInstanceState(recyclerViewState)
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}
