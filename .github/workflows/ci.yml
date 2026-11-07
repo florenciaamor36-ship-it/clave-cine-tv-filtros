@@ -26,21 +26,12 @@ jobs:
           mv upstream/LibreTube-master source
           curl -fsSL https://raw.githubusercontent.com/florenciaamor36-ship-it/la-clave-videos/zapia/clave-mode/BRAND_OVERLAY.zip -o /tmp/brand.zip
           unzip -oq /tmp/brand.zip -d source
-          python3 - <<'PYAPP'
-          from pathlib import Path
-          import re
-          gradle = Path("source/app/build.gradle.kts")
-          text = gradle.read_text()
-          text, count = re.subn(r'applicationId\s*=\s*"[^"]+"', 'applicationId = "ar.com.laclave.cineytv"', text, count=1)
-          if count != 1:
-              raise SystemExit("No se pudo fijar un applicationId independiente")
-          text = re.sub(r'resValue\("string", "app_name", "[^"]+"\)', 'resValue("string", "app_name", "La Clave Cine TV")', text, count=1)
-          gradle.write_text(text)
-          PYAPP
           mkdir -p source/app/src/main/java/com/github/libretube/ui/fragments source/app/src/main/java/com/github/libretube/ui/models/sources source/app/src/main/res/layout source/app/src/main/res/values source/app/src/main/res/values-es source/app/src/main/res/values-b+es+419
           cp cine/app/src/main/java/com/github/libretube/ui/fragments/SearchResultFragment.kt source/app/src/main/java/com/github/libretube/ui/fragments/
           cp cine/app/src/main/java/com/github/libretube/ui/models/sources/SearchPagingSource.kt source/app/src/main/java/com/github/libretube/ui/models/sources/
           cp cine/app/src/main/res/layout/fragment_search_result.xml source/app/src/main/res/layout/
+          cp cine/app/src/main/res/layout/fragment_search_suggestions.xml source/app/src/main/res/layout/
+          cp cine/app/src/main/java/com/github/libretube/ui/fragments/SearchSuggestionsFragment.kt source/app/src/main/java/com/github/libretube/ui/fragments/
           python3 - <<'PYSTRINGS'
           from pathlib import Path
           labels = {
