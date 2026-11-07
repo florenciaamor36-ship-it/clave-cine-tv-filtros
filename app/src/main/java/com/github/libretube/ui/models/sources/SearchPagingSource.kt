@@ -1,1 +1,43 @@
-cGFja2FnZSBjb20uZ2l0aHViLmxpYnJldHViZS51aS5tb2RlbHMuc291cmNlcwoKaW1wb3J0IGFuZHJvaWR4LnBhZ2luZy5QYWdpbmdTb3VyY2UKaW1wb3J0IGFuZHJvaWR4LnBhZ2luZy5QYWdpbmdTdGF0ZQppbXBvcnQgY29tLmdpdGh1Yi5saWJyZXR1YmUuYXBpLk1lZGlhU2VydmljZVJlcG9zaXRvcnkKaW1wb3J0IGNvbS5naXRodWIubGlicmV0dWJlLmFwaS5vYmouQ29udGVudEl0ZW0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CgpjbGFzcyBTZWFyY2hQYWdpbmdTb3VyY2UoCiAgICBwcml2YXRlIHZhbCBzZWFyY2hRdWVyeTogU3RyaW5nLAogICAgcHJpdmF0ZSB2YWwgc2VhcmNoRmlsdGVyOiBTdHJpbmcsCiAgICBwcml2YXRlIHZhbCBvblNlYXJjaFN1Z2dlc3Rpb246IChQYWlyPFN0cmluZywgQm9vbGVhbj4/KSAtPiBVbml0CikgOiBQYWdpbmdTb3VyY2U8U3RyaW5nLCBDb250ZW50SXRlbT4oKSB7CiAgICBvdmVycmlkZSBmdW4gZ2V0UmVmcmVzaEtleShzdGF0ZTogUGFnaW5nU3RhdGU8U3RyaW5nLCBDb250ZW50SXRlbT4pID0gbnVsbAoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGxvYWQocGFyYW1zOiBMb2FkUGFyYW1zPFN0cmluZz4pOiBMb2FkUmVzdWx0PFN0cmluZywgQ29udGVudEl0ZW0+IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIChxdWVyeSwgZXh0cmFjdG9yRmlsdGVyKSA9IHdoZW4gKHNlYXJjaEZpbHRlcikgewogICAgICAgICAgICAgICAgIm1vdmllcyIgLT4gIiRzZWFyY2hRdWVyeSBwZWzDrWN1bGEgY29tcGxldGEiIHRvICJ2aWRlb3MiCiAgICAgICAgICAgICAgICAic2VyaWVzIiAtPiAiJHNlYXJjaFF1ZXJ5IHNlcmllIGNhcMOtdHVsbyIgdG8gInZpZGVvcyIKICAgICAgICAgICAgICAgICJsaXZlIiAtPiAiJHNlYXJjaFF1ZXJ5IGVuIHZpdm8iIHRvICJ2aWRlb3MiCiAgICAgICAgICAgICAgICBlbHNlIC0+IHNlYXJjaFF1ZXJ5IHRvICJ2aWRlb3MiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICBwYXJhbXMua2V5Py5sZXQgewogICAgICAgICAgICAgICAgICAgIE1lZGlhU2VydmljZVJlcG9zaXRvcnkuaW5zdGFuY2UuZ2V0U2VhcmNoUmVzdWx0c05leHRQYWdlKAogICAgICAgICAgICAgICAgICAgICAgICBxdWVyeSwgZXh0cmFjdG9yRmlsdGVyLCBpdAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0gPzogTWVkaWFTZXJ2aWNlUmVwb3NpdG9yeS5pbnN0YW5jZS5nZXRTZWFyY2hSZXN1bHRzKHF1ZXJ5LCBleHRyYWN0b3JGaWx0ZXIpCiAgICAgICAgICAgICAgICAgICAgLmFsc28gewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoaXQuc3VnZ2VzdGlvbi5pc051bGxPckVtcHR5KCkpIG9uU2VhcmNoU3VnZ2VzdGlvbihudWxsKQogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIG9uU2VhcmNoU3VnZ2VzdGlvbihpdC5zdWdnZXN0aW9uIHRvIGl0LmNvcnJlY3RlZCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGl0ZW1zID0gaWYgKHNlYXJjaEZpbHRlciA9PSAibGl2ZSIpIHsKICAgICAgICAgICAgICAgIHJlc3VsdC5pdGVtcy5maWx0ZXIgeyBpdC50eXBlID09ICJzdHJlYW0iICYmIGl0LmR1cmF0aW9uIDw9IDAgJiYgaXQuaXNTaG9ydCAhPSB0cnVlIH0KICAgICAgICAgICAgfSBlbHNlIHJlc3VsdC5pdGVtcy5maWx0ZXIgeyBpdC50eXBlID09ICJzdHJlYW0iIH0KCiAgICAgICAgICAgIExvYWRSZXN1bHQuUGFnZShpdGVtcywgbnVsbCwgcmVzdWx0Lm5leHRwYWdlKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBMb2FkUmVzdWx0LkVycm9yKGUpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.github.libretube.ui.models.sources
+
+import androidx.paging.PagingSource
+import androidx.paging.PagingState
+import com.github.libretube.api.MediaServiceRepository
+import com.github.libretube.api.obj.ContentItem
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+class SearchPagingSource(
+    private val searchQuery: String,
+    private val searchFilter: String,
+    private val onSearchSuggestion: (Pair<String, Boolean>?) -> Unit
+) : PagingSource<String, ContentItem>() {
+    override fun getRefreshKey(state: PagingState<String, ContentItem>) = null
+
+    override suspend fun load(params: LoadParams<String>): LoadResult<String, ContentItem> {
+        return try {
+            val query = when (searchFilter) {
+                "movies" -> "$searchQuery película completa"
+                "series" -> "$searchQuery serie capítulo"
+                "live" -> "$searchQuery en vivo"
+                else -> searchQuery
+            }
+            val result = withContext(Dispatchers.IO) {
+                params.key?.let {
+                    MediaServiceRepository.instance.getSearchResultsNextPage(query, "videos", it)
+                } ?: MediaServiceRepository.instance.getSearchResults(query, "videos")
+                    .also {
+                        if (it.suggestion.isNullOrEmpty()) onSearchSuggestion(null)
+                        else onSearchSuggestion(it.suggestion to it.corrected)
+                    }
+            }
+            val streams = result.items.filter { it.type == "stream" }
+            val items = if (searchFilter == "live") {
+                streams.filter { it.duration <= 0 && it.isShort != true }
+            } else streams
+            LoadResult.Page(items, null, result.nextpage)
+        } catch (e: Exception) {
+            LoadResult.Error(e)
+        }
+    }
+}
