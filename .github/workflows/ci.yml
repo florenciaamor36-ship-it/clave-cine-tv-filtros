@@ -1,1 +1,44 @@
-bmFtZTogQ0kKCm9uOgogIHdvcmtmbG93X2Rpc3BhdGNoOgogIHB1bGxfcmVxdWVzdDoKICAgIHBhdGhzLWlnbm9yZToKICAgICAgLSAiUkVBRE1FKi5tZCIKICAgICAgLSAiZmFzdGxhbmUvKioiCiAgICAgIC0gImFzc2V0cy8qKiIKICAgICAgLSAiLmdpdGh1Yi8qKi8qLm1kIgogIHB1c2g6CiAgICBwYXRocy1pZ25vcmU6CiAgICAgIC0gIlJFQURNRSoubWQiCiAgICAgIC0gImZhc3RsYW5lLyoqIgogICAgICAtICJhc3NldHMvKioiCiAgICAgIC0gIi5naXRodWIvKiovKi5tZCIKCmpvYnM6CiAgZGVidWctYnVpbGRzOgogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gdXNlczogYWN0aW9ucy9jaGVja291dEB2NgogICAgICAtIHVzZXM6IGdyYWRsZS9hY3Rpb25zL3dyYXBwZXItdmFsaWRhdGlvbkB2NQogICAgICAtIHVzZXM6IGFjdGlvbnMvc2V0dXAtcHl0aG9uQHY2CiAgICAgICAgd2l0aDoKICAgICAgICAgIHB5dGhvbi12ZXJzaW9uOiAnMy54JyAjIFZlcnNpb24gcmFuZ2Ugb3IgZXhhY3QgdmVyc2lvbiBvZiBhIFB5dGhvbiB2ZXJzaW9uIHRvIHVzZSwgdXNpbmcgU2VtVmVyJ3MgdmVyc2lvbiByYW5nZSBzeW50YXgKICAgICAgICAgIGFyY2hpdGVjdHVyZTogJ3g2NCcgIyBvcHRpb25hbCB4NjQgb3IgeDg2LiBEZWZhdWx0cyB0byB4NjQgaWYgbm90IHNwZWNpZmllZAoKICAgICAgLSBuYW1lOiBTZXQgdXAgSkRLIDE3CiAgICAgICAgdXNlczogYWN0aW9ucy9zZXR1cC1qYXZhQHY1CiAgICAgICAgd2l0aDoKICAgICAgICAgIGphdmEtdmVyc2lvbjogMTcKICAgICAgICAgIGRpc3RyaWJ1dGlvbjogInRlbXVyaW4iCiAgICAgICAgICBjYWNoZTogImdyYWRsZSIKCiAgICAgIC0gbmFtZTogQ29tcGlsZQogICAgICAgIHJ1bjogfAogICAgICAgICAgLi9ncmFkbGV3IGFzc2VtYmxlRGVidWcKCiAgICAgIC0gbmFtZTogU2lnbiBBcGsKICAgICAgICBjb250aW51ZS1vbi1lcnJvcjogdHJ1ZQogICAgICAgIGlkOiBzaWduX2FwawogICAgICAgIHVzZXM6IGlsaGFycC9zaWduLWFuZHJvaWQtcmVsZWFzZUB2MgogICAgICAgIHdpdGg6CiAgICAgICAgICByZWxlYXNlRGlyOiBhcHAvYnVpbGQvb3V0cHV0cy9hcGsvZGVidWcKICAgICAgICAgIHNpZ25pbmdLZXk6ICR7eyBzZWNyZXRzLkFORFJPSURfU0lHTklOR19LRVkgfX0KICAgICAgICAgIGtleUFsaWFzOiAke3sgc2VjcmV0cy5BTkRST0lEX0tFWV9BTElBUyB9fQogICAgICAgICAga2V5U3RvcmVQYXNzd29yZDogJHt7IHNlY3JldHMuQU5EUk9JRF9LRVlTVE9SRV9QQVNTV09SRCB9fQogICAgICAgICAga2V5UGFzc3dvcmQ6ICR7eyBzZWNyZXRzLkFORFJPSURfS0VZX1BBU1NXT1JEIH19CgogICAgICAtIG5hbWU6IFVwbG9hZCBBUEsKICAgICAgICB1c2VzOiBhY3Rpb25zL3VwbG9hZC1hcnRpZmFjdEB2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBhcHAKICAgICAgICAgIHBhdGg6IGFwcC9idWlsZC9vdXRwdXRzL2Fway9kZWJ1Zy9hcHAtZGVidWctc2lnbmVkLmFwawoKICByZWxlYXNlLW5pZ2h0bHk6CiAgICBpZjogZ2l0aHViLnJlZl9uYW1lID09ICdtYXN0ZXInCiAgICBwZXJtaXNzaW9uczoKICAgICAgY29udGVudHM6IHdyaXRlCiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBuZWVkczogZGVidWctYnVpbGRzCiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY2CgogICAgICAtIG5hbWU6IERvd25sb2FkIERlYnVnIEFQSwogICAgICAgIHVzZXM6IGFjdGlvbnMvZG93bmxvYWQtYXJ0aWZhY3RAdjUKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogYXBwCiAgICAgICAgICBwYXRoOiAuCgogICAgICAtIG5hbWU6IEdldCBEYXRlIGFuZCBUaW1lCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBlY2hvICJUSU1FPSQoZGF0ZSAtdSArJyVUJykiID4+ICRHSVRIVUJfRU5WCiAgICAgICAgICBlY2hvICJEQVRFPSQoZGF0ZSAtdSArJyVkLSVtLSVZJykiID4+ICRHSVRIVUJfRU5WCgogICAgICAtIG5hbWU6IENyZWF0ZSBOaWdodGx5IFRhZwogICAgICAgIHJ1bjogZ2l0IHRhZyAtZiBuaWdodGx5ICYmIGdpdCBwdXNoIC1mIG9yaWdpbiBuaWdodGx5CgogICAgICAtIG5hbWU6IENyZWF0ZSBOaWdodGx5IFJlbGVhc2UKICAgICAgICBpZjogZ2l0aHViLnJlZiA9PSAncmVmcy9oZWFkcy9tYXN0ZXInCiAgICAgICAgdXNlczogbmNpcG9sbG8vcmVsZWFzZS1hY3Rpb25AdjEKICAgICAgICB3aXRoOgogICAgICAgICAgdG9rZW46ICR7eyBnaXRodWIudG9rZW4gfX0KICAgICAgICAgIHRhZzogIG5pZ2h0bHkKICAgICAgICAgIG1ha2VMYXRlc3Q6IHRydWUKICAgICAgICAgIHByZXJlbGVhc2U6IHRydWUKICAgICAgICAgIGFsbG93VXBkYXRlczogdHJ1ZQogICAgICAgICAgdXBkYXRlT25seVVucmVsZWFzZWQ6IHRydWUKICAgICAgICAgIGFydGlmYWN0czogYXBwLWRlYnVnLXNpZ25lZC5hcGsKICAgICAgICAgIG5hbWU6IExpYnJlVHViZSBOaWdodGx5ICR7eyBlbnYuREFURSB9fQogICAgICAgICAgYm9keTogfAogICAgICAgICAgICBMaWJyZVR1YmUgTmlnaHRseSBidWlsZCBmcm9tICR7eyBlbnYuREFURSB9fSAke3sgZW52LlRJTUUgfX0KCiAgICAgICAgICAgID4gWyFOT1RFXQogICAgICAgICAgICA+IE5pZ2h0bHkgYnVpbGRzIGluY2x1ZGUgZmVhdHVyZXMvZml4ZXMgYmVmb3JlIHRoZSBvZmZpY2lhbCByZWxlYXNlLiBUaGVyZWZvcmUsIHRoZXkgYXJlIGdlbmVyYWxseSBsZXNzIHN0YWJsZSB0aGFuIG5vcm1hbCByZWxlYXNlcy4gVXNlIG5pZ2h0bHkgYnVpbGRzIGF0IHlvdXIgb3duIHJpc2suCg==
+name: Build Clave Cine TV APK
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+  actions: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: cine
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+      - name: Prepare upstream LibreTube and La Clave brand
+        run: |
+          curl -fsSL https://codeload.github.com/libre-tube/LibreTube/zip/refs/heads/master -o /tmp/upstream.zip
+          mkdir upstream
+          unzip -q /tmp/upstream.zip -d upstream
+          mv upstream/LibreTube-master source
+          curl -fsSL https://raw.githubusercontent.com/florenciaamor36-ship-it/la-clave-videos/zapia/clave-mode/BRAND_OVERLAY.zip -o /tmp/brand.zip
+          unzip -oq /tmp/brand.zip -d source
+          mkdir -p source/app/src/main/java/com/github/libretube/ui/fragments source/app/src/main/java/com/github/libretube/ui/models/sources source/app/src/main/res/layout source/app/src/main/res/values source/app/src/main/res/values-es source/app/src/main/res/values-b+es+419
+          cp cine/app/src/main/java/com/github/libretube/ui/fragments/SearchResultFragment.kt source/app/src/main/java/com/github/libretube/ui/fragments/
+          cp cine/app/src/main/java/com/github/libretube/ui/models/sources/SearchPagingSource.kt source/app/src/main/java/com/github/libretube/ui/models/sources/
+          cp cine/app/src/main/res/layout/fragment_search_result.xml source/app/src/main/res/layout/
+          cp cine/app/src/main/res/values/strings.xml source/app/src/main/res/values/
+          cp cine/app/src/main/res/values-es/strings.xml source/app/src/main/res/values-es/
+          cp cine/app/src/main/res/values-b+es+419/strings.xml source/app/src/main/res/values-b+es+419/
+      - name: Build debug APK
+        working-directory: source
+        run: chmod +x gradlew && ./gradlew assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clave-cine-tv-debug-apk
+          path: source/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
