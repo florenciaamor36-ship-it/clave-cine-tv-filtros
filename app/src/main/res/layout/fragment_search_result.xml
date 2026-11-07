@@ -1,1 +1,125 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPEZyYW1lTGF5b3V0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIHhtbG5zOmFwcD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy1hdXRvIgogICAgeG1sbnM6dG9vbHM9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL3Rvb2xzIgogICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSI/YW5kcm9pZDpjb2xvckJhY2tncm91bmQiCiAgICB0b29sczpjb250ZXh0PSIudWkuZnJhZ21lbnRzLlNlYXJjaFJlc3VsdEZyYWdtZW50Ij4KCiAgICA8TGluZWFyTGF5b3V0CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9zZWFyY2hfcmVzdWx0c19sYXlvdXQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCI+CgogICAgICAgIDxMaW5lYXJMYXlvdXQKICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9zZWFyY2hfc3VnZ2VzdGlvbl9jb250YWluZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJob3Jpem9udGFsIgogICAgICAgICAgICBhbmRyb2lkOnZpc2liaWxpdHk9ImdvbmUiCiAgICAgICAgICAgIHRvb2xzOnZpc2liaWxpdHk9InZpc2libGUiCiAgICAgICAgICAgIGFuZHJvaWQ6cGFkZGluZ0hvcml6b250YWw9IjEwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6cGFkZGluZ1ZlcnRpY2FsPSI0ZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6YmFja2dyb3VuZD0iP3NlbGVjdGFibGVJdGVtQmFja2dyb3VuZCI+CgogICAgICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc2VhcmNoX3N1Z2dlc3Rpb25fbGFiZWwiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICB0b29sczp0ZXh0PSJAc3RyaW5nL2RpZF95b3VfbWVhbiIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjE2c3AiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5FbmQ9IjhkcCIvPgoKICAgICAgICAgICAgPFRleHRWaWV3CiAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3NlYXJjaF9zdWdnZXN0aW9uIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMTZzcCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSI/Y29sb3JQcmltYXJ5IgogICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U3R5bGU9Iml0YWxpYyIKICAgICAgICAgICAgICAgIHRvb2xzOnRleHQ9IidzdWdnZXN0aW9uJyIgLz4KCiAgICAgICAgPC9MaW5lYXJMYXlvdXQ+CgoKCiAgICAgICAgPEhvcml6b250YWxTY3JvbGxWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvZmlsdGVyX2JhciIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6c2Nyb2xsYmFycz0ibm9uZSIKICAgICAgICAgICAgYXBwOmxheW91dF9jb25zdHJhaW50Qm90dG9tX3RvVG9wT2Y9IkBpZC9yZWN5Y2xlcl92aWV3IgogICAgICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRFbmRfdG9FbmRPZj0icGFyZW50IgogICAgICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRTdGFydF90b1N0YXJ0T2Y9InBhcmVudCIKICAgICAgICAgICAgYXBwOmxheW91dF9jb25zdHJhaW50VG9wX3RvVG9wT2Y9InBhcmVudCI+CgogICAgICAgICAgICA8Y29tLmdvb2dsZS5hbmRyb2lkLm1hdGVyaWFsLmNoaXAuQ2hpcEdyb3VwCiAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2ZpbHRlcl9jaGlwX2dyb3VwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nU3RhcnQ9IjEwZHAiCiAgICAgICAgICAgICAgICBhcHA6Y2hlY2tlZENoaXA9IkBpZC9jaGlwX21vdmllcyIKICAgICAgICAgICAgICAgIGFwcDpzZWxlY3Rpb25SZXF1aXJlZD0idHJ1ZSIKICAgICAgICAgICAgICAgIGFwcDpzaW5nbGVMaW5lPSJ0cnVlIgogICAgICAgICAgICAgICAgYXBwOnNpbmdsZVNlbGVjdGlvbj0idHJ1ZSI+CgogICAgICAgICAgICAgICAgPGNvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbC5jaGlwLkNoaXAKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2NoaXBfbW92aWVzIgogICAgICAgICAgICAgICAgICAgIHN0eWxlPSJAc3R5bGUvQ2hpcCIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvY2luZV9tb3ZpZXMiIC8+CgogICAgICAgICAgICAgICAgPGNvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbC5jaGlwLkNoaXAKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2NoaXBfc2VyaWVzIgogICAgICAgICAgICAgICAgICAgIHN0eWxlPSJAc3R5bGUvQ2hpcCIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvY2luZV9zZXJpZXMiIC8+CgogICAgICAgICAgICAgICAgPGNvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbC5jaGlwLkNoaXAKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2NoaXBfbGl2ZSIKICAgICAgICAgICAgICAgICAgICBzdHlsZT0iQHN0eWxlL0NoaXAiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSJAc3RyaW5nL2NpbmVfbGl2ZSIgLz4KICAgICAgICAgICAgPC9jb20uZ29vZ2xlLmFuZHJvaWQubWF0ZXJpYWwuY2hpcC5DaGlwR3JvdXA+CiAgICAgICAgPC9Ib3Jpem9udGFsU2Nyb2xsVmlldz4KCiAgICAgICAgPGFuZHJvaWR4LnJlY3ljbGVydmlldy53aWRnZXQuUmVjeWNsZXJWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc2VhcmNoX3JlY3ljbGVyIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIgLz4KCiAgICAgICAgPExpbmVhckxheW91dAogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL25vX3NlYXJjaF9yZXN1bHQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0iMGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSIKICAgICAgICAgICAgYW5kcm9pZDpvcmllbnRhdGlvbj0idmVydGljYWwiCiAgICAgICAgICAgIGFuZHJvaWQ6cGFkZGluZ1RvcD0iMTUwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dmlzaWJpbGl0eT0iZ29uZSI+CgogICAgICAgICAgICA8SW1hZ2VWaWV3CiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iMTAwZHAiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjEwMGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luQm90dG9tPSIxNmRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpzcmM9IkBkcmF3YWJsZS9pY19zZWFyY2giIC8+CgogICAgICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6dGV4dD0iQHN0cmluZy9ub19zZWFyY2hfcmVzdWx0IgogICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0QWxpZ25tZW50PSJjZW50ZXIiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIyMHNwIgogICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U3R5bGU9ImJvbGQiIC8+CgogICAgICAgIDwvTGluZWFyTGF5b3V0PgoKICAgIDwvTGluZWFyTGF5b3V0PgoKICAgIDxjb20uZ29vZ2xlLmFuZHJvaWQubWF0ZXJpYWwubG9hZGluZ2luZGljYXRvci5Mb2FkaW5nSW5kaWNhdG9yCiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9wcm9ncmVzcyIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2dyYXZpdHk9ImNlbnRlciIgLz4KCjwvRnJhbWVMYXlvdXQ+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground"
+    tools:context=".ui.fragments.SearchResultFragment">
+
+    <LinearLayout
+        android:id="@+id/search_results_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/search_suggestion_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:background="?selectableItemBackground">
+
+            <TextView
+                android:id="@+id/search_suggestion_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/did_you_mean"
+                android:textSize="16sp"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/search_suggestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="?colorPrimary"
+                android:textStyle="italic"
+                tools:text="'suggestion'" />
+
+        </LinearLayout>
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/filter_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toTopOf="@id/recycler_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/filter_chip_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                app:checkedChip="@id/chip_movies"
+                app:selectionRequired="true"
+                app:singleLine="true"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_movies"
+                    style="@style/Chip"
+                    android:text="@string/cine_movies" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_series"
+                    style="@style/Chip"
+                    android:text="@string/cine_series" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_live"
+                    style="@style/Chip"
+                    android:text="@string/cine_live" />
+            </com.google.android.material.chip.ChipGroup>
+        </HorizontalScrollView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/search_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/no_search_result"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="150dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/ic_search" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_search_result"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.loadingindicator.LoadingIndicator
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</FrameLayout>
