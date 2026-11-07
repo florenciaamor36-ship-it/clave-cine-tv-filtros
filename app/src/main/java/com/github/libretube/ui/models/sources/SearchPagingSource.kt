@@ -16,12 +16,18 @@ class SearchPagingSource(
 
     override suspend fun load(params: LoadParams<String>): LoadResult<String, ContentItem> {
         return try {
-            val query = when (searchFilter) {
-                "movies" -> "$searchQuery película completa"
-                "series" -> "$searchQuery serie capítulo"
-                "live" -> "$searchQuery en vivo"
-                else -> searchQuery
+            val parts = searchFilter.split("|", limit = 2)
+            val type = parts.firstOrNull().orEmpty()
+            val category = parts.getOrNull(1).orEmpty()
+            val typeTerm = when (type) {
+                "movies" -> "película completa"
+                "series" -> "serie capítulo"
+                "live" -> "canal TV en vivo transmisión"
+                "music" -> "música"
+                else -> ""
             }
+            val query = listOf(searchQuery, typeTerm, category).filter { it.isNotBlank() }.joinToString(" ")
+
             val result = withContext(Dispatchers.IO) {
                 params.key?.let {
                     MediaServiceRepository.instance.getSearchResultsNextPage(query, "videos", it)
@@ -32,7 +38,7 @@ class SearchPagingSource(
                     }
             }
             val streams = result.items.filter { it.type == "stream" }
-            val items = if (searchFilter == "live") {
+            val items = if (type == "live") {
                 streams.filter { it.duration <= 0 && it.isShort != true }
             } else streams
             LoadResult.Page(items, null, result.nextpage)
