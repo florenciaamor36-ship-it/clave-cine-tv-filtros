@@ -578,4 +578,5 @@
     <string name="cine_movies">Movies</string>
     <string name="cine_series">Series</string>
     <string name="cine_live">Live TV</string>
+    <string name="cine_music">Música</string>
 </resources>
