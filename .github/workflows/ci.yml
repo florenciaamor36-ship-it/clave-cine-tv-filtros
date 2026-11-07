@@ -37,7 +37,7 @@ jobs:
           path = Path("source/app/src/main/java/com/github/libretube/ui/activities/MainActivity.kt")
           text = path.read_text()
           marker = "    fun setQuery(query: String, submit: Boolean) {"
-          addition = "    fun currentSearchQuery(): String = if (this::searchView.isInitialized) searchView.query?.toString().orEmpty() else ""\n\n"
+          addition = "    fun currentSearchQuery(): String = searchView.query?.toString().orEmpty()\n\n"
           if "fun currentSearchQuery()" not in text:
               text = text.replace(marker, addition + marker)
           path.write_text(text)
