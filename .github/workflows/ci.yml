@@ -26,6 +26,42 @@ jobs:
           mv upstream/LibreTube-master source
           curl -fsSL https://raw.githubusercontent.com/florenciaamor36-ship-it/la-clave-videos/zapia/clave-mode/BRAND_OVERLAY.zip -o /tmp/brand.zip
           unzip -oq /tmp/brand.zip -d source
+          python3 - <<'PYNOADS'
+          from pathlib import Path
+          import re
+          root = Path("source/app/src/main")
+          home = root / "java/com/github/libretube/ui/fragments/HomeFragment.kt"
+          text = home.read_text()
+          for line in [
+              "import android.net.Uri\n", "import android.os.Handler\n", "import android.os.Looper\n",
+              "import android.view.Gravity\n", "import android.widget.ImageView\n", "import android.widget.LinearLayout\n",
+              "import android.widget.TextView\n", "import com.google.android.material.dialog.MaterialAlertDialogBuilder\n"
+          ]:
+              text = text.replace(line, "")
+          text = re.sub(r"    private val promoHandler = Handler\(Looper.getMainLooper\(\)\)\n    private var promoTimer: Runnable\? = null\n    private var promoDialog: androidx\.appcompat\.app\.AlertDialog\? = null\n", "", text)
+          text = re.sub(r"\n        binding\.claveWhatsappPromo\.setOnClickListener \{.*?\n        \}\n        if \(savedInstanceState == null\) view\.post \{ if \(isAdded\) showClavePromo\(\) \}\n", "\n", text, flags=re.S)
+          text = re.sub(r"        promoTimer\?\.let\(promoHandler::removeCallbacks\)\n        promoTimer = null\n        promoDialog\?\.dismiss\(\)\n        promoDialog = null\n", "", text)
+          text, count = re.subn(r"    private fun showClavePromo\(\) \{.*?\n    private fun fetchHomeFeed\(\)", "    private fun fetchHomeFeed()", text, flags=re.S)
+          if count != 1:
+              raise SystemExit("No se pudo retirar el temporizador promocional de Inicio")
+          home.write_text(text)
+          layout = root / "res/layout/fragment_home.xml"
+          xml = layout.read_text()
+          xml, count = re.subn(r"\s*<ImageView\s+android:id=\"@\+id/claveWhatsappPromo\".*?/>\s*", "\n", xml, count=1, flags=re.S)
+          if count != 1:
+              raise SystemExit("No se encontró el banner promocional de Inicio")
+          layout.write_text(xml)
+          for path in (root / "res/drawable-nodpi").glob("clave_ad_*.jpg"):
+              path.unlink()
+          (root / "res/drawable-nodpi/clave_whatsapp_button.jpg").unlink(missing_ok=True)
+          for folder in ["values", "values-es", "values-b+es+419"]:
+              path = root / "res" / folder / "strings.xml"
+              if not path.exists():
+                  continue
+              xml = path.read_text()
+              xml = re.sub(r"\s*<string name=\"clave_(?:promo_title|whatsapp|ad_seconds|ad_close)\">.*?</string>", "", xml)
+              path.write_text(xml)
+          PYNOADS
           python3 - <<'PYAPP'
           from pathlib import Path
           import re
