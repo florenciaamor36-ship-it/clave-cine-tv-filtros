@@ -38,6 +38,7 @@ jobs:
               "import android.widget.TextView\n"
           ]:
               text = text.replace(line, "")
+          text = re.sub(r"(?m)^import com\.google\.android\.material\.(?:chip\.Chip|dialog\.MaterialAlertDialogBuilder)\n", "", text)
           text = text.replace("import com.google.android.material.snackbar.Snackbar\n", "import com.google.android.material.chip.Chip\nimport com.google.android.material.dialog.MaterialAlertDialogBuilder\nimport com.google.android.material.snackbar.Snackbar\n")
           text = re.sub(r"    private val promoHandler = Handler\(Looper.getMainLooper\(\)\)\n    private var promoTimer: Runnable\? = null\n    private var promoDialog: androidx\.appcompat\.app\.AlertDialog\? = null\n", "", text)
           text = re.sub(r"\n        binding\.claveWhatsappPromo\.setOnClickListener \{.*?\n        \}\n        if \(savedInstanceState == null\) view\.post \{ if \(isAdded\) showClavePromo\(\) \}\n", "\n", text, flags=re.S)
