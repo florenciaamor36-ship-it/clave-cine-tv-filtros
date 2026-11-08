@@ -125,7 +125,7 @@ jobs:
               if marker not in text:
                   raise SystemExit("No se encontró inicialización de HomeFragment")
               text = text.replace(marker, addition + marker, 1)
-              imports = "import androidx.lifecycle.lifecycleScope\nimport com.github.libretube.extensions.toID\n"
+              imports = "import androidx.lifecycle.lifecycleScope\nimport com.github.libretube.extensions.toID\nimport kotlinx.coroutines.launch\n"
           if "import androidx.lifecycle.lifecycleScope" not in text:
               text = text.replace("import androidx.fragment.app.Fragment\n", "import androidx.fragment.app.Fragment\n" + imports)
           path.write_text(text)
@@ -150,6 +150,10 @@ jobs:
           from pathlib import Path
           path = Path("source/app/src/main/java/com/github/libretube/ui/activities/MainActivity.kt")
           text = path.read_text()
+          marker = "    fun setQuery(query: String, submit: Boolean) {"
+          addition = "    fun currentSearchQuery(): String = searchView.query?.toString().orEmpty()\n\n"
+          if "fun currentSearchQuery()" not in text:
+              text = text.replace(marker, addition + marker)
           path.write_text(text)
           PYMAIN
           python3 - <<'PYSTRINGS'
