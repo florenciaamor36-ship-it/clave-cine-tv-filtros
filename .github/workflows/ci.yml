@@ -57,15 +57,15 @@ jobs:
               opening = text.find("{", pos)
               if opening >= 0 and "hideCineLegacyRows()" not in text[opening:opening+120]:
                   text = text[:opening+1] + "\n        hideCineLegacyRows()" + text[opening+1:]
-          helper = "    private fun hideCineLegacyRows() {\n        listOf(binding.featuredTV, binding.featuredRV, binding.watchingTV, binding.watchingRV, binding.trendingTV, binding.trendingRV, binding.bookmarksTV, binding.bookmarksRV, binding.playlistsTV, binding.playlistsRV).forEach { it.isGone = true }\n    }\n\n"
-          if "private fun hideCineLegacyRows()" not in text:
-              text = text.replace("    private fun fetchHomeFeed()", helper + "    private fun fetchHomeFeed()", 1)
           text = re.sub(r"    private val promoHandler = Handler\(Looper.getMainLooper\(\)\)\n    private var promoTimer: Runnable\? = null\n    private var promoDialog: androidx\.appcompat\.app\.AlertDialog\? = null\n", "", text)
           text = re.sub(r"\n        binding\.claveWhatsappPromo\.setOnClickListener \{.*?\n        \}\n        if \(savedInstanceState == null\) view\.post \{ if \(isAdded\) showClavePromo\(\) \}\n", "\n", text, flags=re.S)
           text = re.sub(r"        promoTimer\?\.let\(promoHandler::removeCallbacks\)\n        promoTimer = null\n        promoDialog\?\.dismiss\(\)\n        promoDialog = null\n", "", text)
           text, count = re.subn(r"    private fun showClavePromo\(\) \{.*?\n    private fun fetchHomeFeed\(\)", "    private fun fetchHomeFeed()", text, flags=re.S)
           if count != 1:
               raise SystemExit("No se pudo retirar el temporizador promocional de Inicio")
+          helper = "    private fun hideCineLegacyRows() {\n        listOf(binding.featuredTV, binding.featuredRV, binding.watchingTV, binding.watchingRV, binding.trendingTV, binding.trendingRV, binding.bookmarksTV, binding.bookmarksRV, binding.playlistsTV, binding.playlistsRV).forEach { it.isGone = true }\n    }\n\n"
+          if "private fun hideCineLegacyRows()" not in text:
+              text = text.replace("    private fun fetchHomeFeed()", helper + "    private fun fetchHomeFeed()", 1)
           home.write_text(text)
           layout = root / "res/layout/fragment_home.xml"
           xml = layout.read_text()
