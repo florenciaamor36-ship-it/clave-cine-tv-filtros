@@ -42,6 +42,8 @@ jobs:
           cp cine/app/src/main/java/com/github/libretube/ui/fragments/SearchResultFragment.kt source/app/src/main/java/com/github/libretube/ui/fragments/
           cp cine/app/src/main/java/com/github/libretube/ui/models/sources/SearchPagingSource.kt source/app/src/main/java/com/github/libretube/ui/models/sources/
           cp cine/app/src/main/res/layout/fragment_search_result.xml source/app/src/main/res/layout/
+          cp cine/app/src/main/res/layout/fragment_home.xml source/app/src/main/res/layout/
+          cp cine/app/src/main/java/com/github/libretube/ui/fragments/HomeFragment.kt source/app/src/main/java/com/github/libretube/ui/fragments/
           cp cine/app/src/main/res/layout/fragment_search_suggestions.xml source/app/src/main/res/layout/
           cp cine/app/src/main/java/com/github/libretube/ui/fragments/SearchSuggestionsFragment.kt source/app/src/main/java/com/github/libretube/ui/fragments/
           python3 - <<'PYMAIN'
