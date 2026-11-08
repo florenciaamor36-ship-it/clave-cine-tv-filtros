@@ -89,12 +89,13 @@ jobs:
           import base64
           layout = Path("source/app/src/main/res/layout/fragment_home.xml")
           text = layout.read_text()
-          marker = '                <LinearLayout\n                    android:id="@+id/featuredTV"'
+          marker_pattern = r'(?m)^(\s*)<LinearLayout\s+android:id="@\+id/featuredTV"'
           block = base64.b64decode("ICAgICAgICAgICAgICAgIDxIb3Jpem9udGFsU2Nyb2xsVmlldwogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpzY3JvbGxiYXJzPSJub25lIj4KICAgICAgICAgICAgICAgICAgICA8Y29tLmdvb2dsZS5hbmRyb2lkLm1hdGVyaWFsLmNoaXAuQ2hpcEdyb3VwCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvY2luZVR5cGVHcm91cCIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6cGFkZGluZ1N0YXJ0PSI4ZHAiCiAgICAgICAgICAgICAgICAgICAgICAgIGFwcDpzaW5nbGVMaW5lPSJ0cnVlIgogICAgICAgICAgICAgICAgICAgICAgICBhcHA6c2luZ2xlU2VsZWN0aW9uPSJ0cnVlIiAvPgogICAgICAgICAgICAgICAgPC9Ib3Jpem9udGFsU2Nyb2xsVmlldz4KICAgICAgICAgICAgICAgIDxIb3Jpem9udGFsU2Nyb2xsVmlldwogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpzY3JvbGxiYXJzPSJub25lIj4KICAgICAgICAgICAgICAgICAgICA8Y29tLmdvb2dsZS5hbmRyb2lkLm1hdGVyaWFsLmNoaXAuQ2hpcEdyb3VwCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvY2luZUNhdGVnb3J5R3JvdXAiCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOnBhZGRpbmdTdGFydD0iOGRwIgogICAgICAgICAgICAgICAgICAgICAgICBhcHA6c2luZ2xlTGluZT0idHJ1ZSIKICAgICAgICAgICAgICAgICAgICAgICAgYXBwOnNpbmdsZVNlbGVjdGlvbj0idHJ1ZSIgLz4KICAgICAgICAgICAgICAgIDwvSG9yaXpvbnRhbFNjcm9sbFZpZXc+Cgo=").decode()
           if "@+id/cineTypeGroup" not in text:
-              if marker not in text:
+              match = __import__("re").search(marker_pattern, text)
+              if not match:
                   raise SystemExit("No se encontró el inicio de la lista de Inicio")
-              text = text.replace(marker, block + marker, 1)
+              text = text[:match.start()] + block + text[match.start():]
               layout.write_text(text)
           path = Path("source/app/src/main/java/com/github/libretube/ui/fragments/HomeFragment.kt")
           text = path.read_text()
