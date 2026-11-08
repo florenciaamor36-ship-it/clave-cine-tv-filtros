@@ -126,6 +126,9 @@ jobs:
                   raise SystemExit("No se encontró inicialización de HomeFragment")
               text = text.replace(marker, addition + marker, 1)
               imports = "import androidx.lifecycle.lifecycleScope\nimport com.github.libretube.extensions.toID\nimport kotlinx.coroutines.launch\n"
+              hide_legacy = "        listOf(binding.featuredTV, binding.featuredRV, binding.watchingTV, binding.watchingRV, binding.trendingTV, binding.trendingRV, binding.bookmarksTV, binding.bookmarksRV, binding.playlistsTV, binding.playlistsRV).forEach { it.isGone = true }\n"
+              if "hideLegacyHomeShelves" not in text:
+                  text = text.replace("        binding.bookmarksRV.layoutManager = CarouselLayoutManager(UncontainedCarouselStrategy())", "        // hideLegacyHomeShelves\n" + hide_legacy + "        binding.bookmarksRV.layoutManager = CarouselLayoutManager(UncontainedCarouselStrategy())", 1)
           if "import androidx.lifecycle.lifecycleScope" not in text:
               text = text.replace("import androidx.fragment.app.Fragment\n", "import androidx.fragment.app.Fragment\n" + imports)
           path.write_text(text)
@@ -171,6 +174,18 @@ jobs:
                       text = text.replace("</resources>", f'    <string name="{key}">{value}</string>\n</resources>')
               path.write_text(text)
           PYSTRINGS
+          python3 - <<'PYNAME'
+          from pathlib import Path
+          import re
+          root = Path("source/app/src/main/res")
+          for folder in ["values", "values-es", "values-b+es+419"]:
+              path = root / folder / "strings.xml"
+              if not path.exists():
+                  continue
+              text = path.read_text()
+              text = re.sub(r'(<string name="app_name"[^>]*>).*?(</string>)', r'\1La Clave Cine TV\2', text)
+              path.write_text(text)
+          PYNAME
       - name: Build debug APK
         working-directory: source
         run: chmod +x gradlew && ./gradlew assembleDebug --no-daemon
