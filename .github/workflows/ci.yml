@@ -46,6 +46,20 @@ jobs:
               text = text.replace(line, "")
           text = re.sub(r"(?m)^import com\.google\.android\.material\.(?:chip\.Chip|dialog\.MaterialAlertDialogBuilder)\n", "", text)
           text = text.replace("import com.google.android.material.snackbar.Snackbar\n", "import com.google.android.material.chip.Chip\nimport com.google.android.material.dialog.MaterialAlertDialogBuilder\nimport com.google.android.material.snackbar.Snackbar\n")
+          # Brand HomeFragment calls these after network requests and would re-show legacy LibreTube rows.
+          # Keep them hidden so Cine TV's category grid remains the only home catalog.
+          hide_calls = ["showTrending", "showFeed", "showBookmarks", "showPlaylists", "showContinueWatching"]
+          for function_name in hide_calls:
+              marker = "private fun " + function_name + "("
+              pos = text.find(marker)
+              if pos < 0:
+                  continue
+              opening = text.find("{", pos)
+              if opening >= 0 and "hideCineLegacyRows()" not in text[opening:opening+120]:
+                  text = text[:opening+1] + "\n        hideCineLegacyRows()" + text[opening+1:]
+          helper = "    private fun hideCineLegacyRows() {\n        listOf(binding.featuredTV, binding.featuredRV, binding.watchingTV, binding.watchingRV, binding.trendingTV, binding.trendingRV, binding.bookmarksTV, binding.bookmarksRV, binding.playlistsTV, binding.playlistsRV).forEach { it.isGone = true }\n    }\n\n"
+          if "private fun hideCineLegacyRows()" not in text:
+              text = text.replace("    private fun fetchHomeFeed()", helper + "    private fun fetchHomeFeed()", 1)
           text = re.sub(r"    private val promoHandler = Handler\(Looper.getMainLooper\(\)\)\n    private var promoTimer: Runnable\? = null\n    private var promoDialog: androidx\.appcompat\.app\.AlertDialog\? = null\n", "", text)
           text = re.sub(r"\n        binding\.claveWhatsappPromo\.setOnClickListener \{.*?\n        \}\n        if \(savedInstanceState == null\) view\.post \{ if \(isAdded\) showClavePromo\(\) \}\n", "\n", text, flags=re.S)
           text = re.sub(r"        promoTimer\?\.let\(promoHandler::removeCallbacks\)\n        promoTimer = null\n        promoDialog\?\.dismiss\(\)\n        promoDialog = null\n", "", text)
