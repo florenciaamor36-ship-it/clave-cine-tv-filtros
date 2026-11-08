@@ -104,8 +104,21 @@ jobs:
           if count != 1:
               raise SystemExit("No se pudo asignar un identificador independiente")
           text = re.sub(r'\s*applicationIdSuffix\s*=\s*"[^"]+"', '', text, count=1)
-          text = text.replace('resValue("string", "app_name", "Clave Video Debug")', 'resValue("string", "app_name", "La Clave Cine TV")')
+          text = text.replace('resValue("string", "app_name", "Clave Video Debug")', 'resValue("string", "app_name", "La Clave Play")')
           path.write_text(text)
+          res = Path("source/app/src/main/res")
+          (res / "drawable").mkdir(parents=True, exist_ok=True)
+          (res / "mipmap-anydpi-v26").mkdir(parents=True, exist_ok=True)
+          (res / "values").mkdir(parents=True, exist_ok=True)
+          (res / "drawable/ic_launcher_foreground.xml").write_text("""<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108"><path android:fillColor="#D6AA52" android:pathData="M25,22h58a7,7 0,0 1,7 7v50a7,7 0,0 1,-7 7H25a7,7 0,0 1,-7 -7V29a7,7 0,0 1,7 -7z"/><path android:fillColor="#101116" android:pathData="M28,37h52v42H28z"/><path android:fillColor="#D6AA52" android:pathData="M45,43v30l25,-15z"/><path android:fillColor="#101116" android:pathData="M27,27h8v6h-8zM43,27h8v6h-8zM59,27h8v6h-8zM75,27h8v6h-8z"/></vector>""")
+          (res / "values/launcher_colors.xml").write_text("<resources><color name=\"launcher_background\">#101116</color></resources>")
+          (res / "mipmap-anydpi-v26/ic_launcher.xml").write_text("""<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"><background android:drawable="@color/launcher_background"/><foreground android:drawable="@drawable/ic_launcher_foreground"/></adaptive-icon>""")
+          (res / "mipmap-anydpi-v26/ic_launcher_round.xml").write_text("""<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"><background android:drawable="@color/launcher_background"/><foreground android:drawable="@drawable/ic_launcher_foreground"/></adaptive-icon>""")
+          manifest = Path("source/app/src/main/AndroidManifest.xml")
+          mtext = manifest.read_text()
+          mtext = re.sub(r'android:icon="@[^"]+"', 'android:icon="@mipmap/ic_launcher"', mtext)
+          mtext = re.sub(r'android:roundIcon="@[^"]+"', 'android:roundIcon="@mipmap/ic_launcher_round"', mtext)
+          manifest.write_text(mtext)
           PYAPP
           mkdir -p source/app/src/main/java/com/github/libretube/ui/fragments source/app/src/main/java/com/github/libretube/ui/models/sources source/app/src/main/res/layout source/app/src/main/res/values source/app/src/main/res/values-es source/app/src/main/res/values-b+es+419
           cp cine/app/src/main/java/com/github/libretube/ui/fragments/SearchResultFragment.kt source/app/src/main/java/com/github/libretube/ui/fragments/
@@ -197,7 +210,7 @@ jobs:
               if not path.exists():
                   continue
               text = path.read_text()
-              text = re.sub(r'(<string name="app_name"[^>]*>).*?(</string>)', r'\1La Clave Cine TV\2', text)
+              text = re.sub(r'(<string name="app_name"[^>]*>).*?(</string>)', r'\1La Clave Play\2', text)
               path.write_text(text)
           PYNAME
       - name: Build debug APK
