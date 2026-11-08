@@ -35,9 +35,10 @@ jobs:
           for line in [
               "import android.net.Uri\n", "import android.os.Handler\n", "import android.os.Looper\n",
               "import android.view.Gravity\n", "import android.widget.ImageView\n", "import android.widget.LinearLayout\n",
-              "import android.widget.TextView\n", "import com.google.android.material.dialog.MaterialAlertDialogBuilder\n"
+              "import android.widget.TextView\n"
           ]:
               text = text.replace(line, "")
+          text = text.replace("import com.google.android.material.snackbar.Snackbar\n", "import com.google.android.material.chip.Chip\nimport com.google.android.material.dialog.MaterialAlertDialogBuilder\nimport com.google.android.material.snackbar.Snackbar\n")
           text = re.sub(r"    private val promoHandler = Handler\(Looper.getMainLooper\(\)\)\n    private var promoTimer: Runnable\? = null\n    private var promoDialog: androidx\.appcompat\.app\.AlertDialog\? = null\n", "", text)
           text = re.sub(r"\n        binding\.claveWhatsappPromo\.setOnClickListener \{.*?\n        \}\n        if \(savedInstanceState == null\) view\.post \{ if \(isAdded\) showClavePromo\(\) \}\n", "\n", text, flags=re.S)
           text = re.sub(r"        promoTimer\?\.let\(promoHandler::removeCallbacks\)\n        promoTimer = null\n        promoDialog\?\.dismiss\(\)\n        promoDialog = null\n", "", text)
