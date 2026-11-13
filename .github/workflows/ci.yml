@@ -238,6 +238,7 @@ jobs:
           python3 - <<'PYCATALOG'
           from pathlib import Path
           import xml.etree.ElementTree as ET
+          ET.register_namespace("android", "http://schemas.android.com/apk/res/android")
           root = Path("source/app/src/main")
           manifest = root / "AndroidManifest.xml"
           tree = ET.parse(manifest)
