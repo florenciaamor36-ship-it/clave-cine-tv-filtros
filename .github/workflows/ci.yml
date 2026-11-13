@@ -259,10 +259,8 @@ jobs:
                       text = "Explorar catálogo de medios libres"
                       setOnClickListener { startActivity(android.content.Intent(requireContext(), com.github.libretube.ui.activities.FreeCatalogActivity::class.java)) }
                   }
-                  (binding.root as? android.widget.FrameLayout)?.addView(freeCatalogButton, android.widget.FrameLayout.LayoutParams(-1, -2, android.view.Gravity.TOP).apply {
-                      topMargin = (8 * resources.displayMetrics.density).toInt()
-                      leftMargin = (16 * resources.displayMetrics.density).toInt()
-                      rightMargin = (16 * resources.displayMetrics.density).toInt()
+                  (binding.root.findViewById<android.widget.ScrollView>(com.github.libretube.R.id.scroll)?.getChildAt(0) as? android.widget.LinearLayout)?.addView(freeCatalogButton, 0, android.widget.LinearLayout.LayoutParams(-1, (52 * resources.displayMetrics.density).toInt()).apply {
+                      setMargins((16 * resources.displayMetrics.density).toInt(), (12 * resources.displayMetrics.density).toInt(), (16 * resources.displayMetrics.density).toInt(), (8 * resources.displayMetrics.density).toInt())
                   })
               '''
               text = text.replace(marker, marker + "\n" + addition, 1)
