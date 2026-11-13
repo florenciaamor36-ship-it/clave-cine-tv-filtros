@@ -231,6 +231,43 @@ jobs:
               text = re.sub(r'(<string name="app_name"[^>]*>).*?(</string>)', r'\1La Clave Play\2', text)
               path.write_text(text)
           PYNAME
+      - name: Add public-domain and Creative Commons catalog prototype
+        run: |
+          mkdir -p source/app/src/main/java/com/github/libretube/ui/activities
+          cp cine/prototype/FreeCatalogActivity.kt source/app/src/main/java/com/github/libretube/ui/activities/
+          python3 - <<'PYCATALOG'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          root = Path("source/app/src/main")
+          manifest = root / "AndroidManifest.xml"
+          tree = ET.parse(manifest)
+          app = tree.getroot().find("application")
+          name_key = "{http://schemas.android.com/apk/res/android}name"
+          if app is None:
+              raise SystemExit("AndroidManifest has no application element")
+          if not any(a.get(name_key) == "com.github.libretube.ui.activities.FreeCatalogActivity" for a in app.findall("activity")):
+              ET.SubElement(app, "activity", {name_key: "com.github.libretube.ui.activities.FreeCatalogActivity", "{http://schemas.android.com/apk/res/android}exported": "false"})
+          tree.write(manifest, encoding="utf-8", xml_declaration=True)
+          home = root / "java/com/github/libretube/ui/fragments/HomeFragment.kt"
+          text = home.read_text()
+          marker = "        _binding = FragmentHomeBinding.bind(view)"
+          if "FreeCatalogActivity::class.java" not in text:
+              if marker not in text:
+                  raise SystemExit("HomeFragment binding marker not found")
+              addition = '''
+                  val freeCatalogButton = com.google.android.material.button.MaterialButton(requireContext()).apply {
+                      text = "Explorar catálogo de medios libres"
+                      setOnClickListener { startActivity(android.content.Intent(requireContext(), com.github.libretube.ui.activities.FreeCatalogActivity::class.java)) }
+                  }
+                  (binding.root as? android.widget.FrameLayout)?.addView(freeCatalogButton, android.widget.FrameLayout.LayoutParams(-1, -2, android.view.Gravity.TOP).apply {
+                      topMargin = (8 * resources.displayMetrics.density).toInt()
+                      leftMargin = (16 * resources.displayMetrics.density).toInt()
+                      rightMargin = (16 * resources.displayMetrics.density).toInt()
+                  })
+              '''
+              text = text.replace(marker, marker + "\n" + addition, 1)
+              home.write_text(text)
+          PYCATALOG
       - name: Build debug APK
         working-directory: source
         run: chmod +x gradlew && ./gradlew assembleDebug --no-daemon
