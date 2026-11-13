@@ -1,6 +1,6 @@
 package com.github.libretube.ui.activities
 
-import android.app.Activity
+import androidx.appcompat.app.AppCompatActivity
 import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
@@ -29,7 +29,7 @@ import java.net.URL
 import java.nio.charset.StandardCharsets
 
 /** Search and play public media with an explicit reusable license from Internet Archive or Commons. */
-class FreeCatalogActivity : Activity() {
+class FreeCatalogActivity : AppCompatActivity() {
     private data class Media(val title: String, val description: String, val poster: String?, val stream: String, val provider: String, val license: String, val licenseUrl: String, val attribution: String, val pageUrl: String)
 
     private lateinit var body: LinearLayout
@@ -67,7 +67,7 @@ class FreeCatalogActivity : Activity() {
         root.addView(playerView, LinearLayout.LayoutParams(-1, dp(220)).apply { topMargin = dp(12) })
         progress = ProgressBar(this).apply { visibility = View.GONE; indeterminateTintList = android.content.res.ColorStateList.valueOf(accent) }
         root.addView(progress, LinearLayout.LayoutParams(dp(44), dp(44)).apply { gravity = Gravity.CENTER; topMargin = dp(12) })
-        val scroll = ScrollView(this).apply { fillViewport = false }
+        val scroll = ScrollView(this).apply { isFillViewport = false }
         body = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL }
         results = body
         scroll.addView(body)
