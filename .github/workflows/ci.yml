@@ -277,6 +277,14 @@ jobs:
             tail -n 60 /tmp/gradle-build.log
             exit 1
           fi
+      - name: Preserve build log for diagnosis
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-build-diagnostic
+          path: /tmp/gradle-build.log
+          if-no-files-found: ignore
+          retention-days: 3
       - uses: actions/upload-artifact@v4
         with:
           name: clave-cine-tv-debug-apk
